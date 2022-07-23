@@ -1,5 +1,7 @@
-/*
 //jshint eversion:6
+
+/*
+
 
 //  The Node REPL(Read Evaluation Print Loop)
 //import fs from "fs";
@@ -10,7 +12,7 @@
 
 //     When we writr file1- I am file.
 //    file2 - I am file2.txt .
-// When we save it and run ->   node index.js      in hyper so file2 text will replaced by file1 text.
+// When we save it and run ->   node index.js in hyper so file2 text will replaced by file1 text.
 
 */
 
@@ -31,3 +33,8 @@ then you will get dependencies inside package.json
 
 
 */
+
+var superheroes = require("superheroes");
+//import { random } from "superheroes";
+var mySuperheroName= superheroes.random();
+console.log(mySuperheroName);
