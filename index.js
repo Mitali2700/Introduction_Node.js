@@ -34,20 +34,20 @@ then you will get dependencies inside package.json
 
 */
 
-/*
-********************* superheroes package***********************
+
+/********************* superheroes package***********************/
 
 var superheroes = require("superheroes");
 //import { random } from "superheroes";
 var mySuperheroName= superheroes.random();
-console.log(mySuperheroName);
-*/
+console.log("Superhero: "+mySuperheroName);
+
 
 /********************* supervillains package***********************/
 const supervillains = require('supervillains');
  
-supervillains.random();
-
+var mySupervilliansName = supervillains.random();
+console.log( "Supervillain: " +mySupervilliansName);
 
 /* 
 Github Readme
