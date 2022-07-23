@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-node",
+  "version": "1.0.0",
+  "description": "This is a intro to node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitali2700/Introduction_Node.js.git"
+  },
+  "author": "Mitali Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitali2700/Introduction_Node.js/issues"
+  },
+  "homepage": "https://github.com/Mitali2700/Introduction_Node.js#readme"
+}
