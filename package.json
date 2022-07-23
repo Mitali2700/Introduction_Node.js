@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mitali2700/Introduction_Node.js/issues"
   },
-  "homepage": "https://github.com/Mitali2700/Introduction_Node.js#readme"
+  "homepage": "https://github.com/Mitali2700/Introduction_Node.js#readme",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
 }
